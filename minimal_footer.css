@@ -1,0 +1,78 @@
+@media (max-width: 600px) {
+	
+	 #footer {
+		max-width: 700px;
+		min-width: 0px;
+		left: 10%;
+		bottom: 43px;
+		width: 155px;
+	}
+	
+	
+	 #footer {
+		
+		height: 183px;
+	}
+	
+	#footerPadding {
+		height: 246px;
+	}
+	
+	body.txt #footerPadding {
+		background: #151515;
+	}
+
+	 #footer li {
+		text-align: left;
+		min-width:156px;
+	}
+
+	 #footer > ul > .strt {
+		padding-left: 0%;
+		margin-left: 5px;
+		margin-bottom:10px;
+		height: auto;
+	}
+	
+	 #footer > ul > .mid {
+		width: 100%;
+	}
+	
+	 #footer .mailAndRequest .request   {
+		display:none;
+	}
+	
+	 #footer #popupMap {
+	 	display: none;
+		width:0px;
+		overflow:hidden;
+	}
+	
+	 
+	 /* ÐžÑÐ²Ð¾Ð±Ð¾Ð¶Ð´Ð°ÐµÐ¼  ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ Ð¾Ñ‚ Ñ€Ð¾Ð»Ð¸ Ð²ÐµÑ€Ñ‚Ð¸ÐºÐ°Ð»ÑŒÐ½Ð¾Ð³Ð¾ Ð²Ñ‹Ñ€Ð°Ð²Ð½Ð¸Ð²Ð°Ñ‚ÐµÐ»Ñ*/
+	
+	 #footer .teamAndWorks {
+		height: auto;
+	}
+	 #footer .teamAndWorks:after {
+		display: none;
+	}
+	
+/* Ð¡Ð»Ð°Ð¹Ð´Ñ‹ Ð² Ð¿Ð°Ñ€Ð°Ð»Ð»Ð°ÐºÑÐµ */
+	 
+	 #intro .captionContainer:after {
+		content: none;
+			
+	}
+	 #intro .captionContainer h1 {
+	 	position: absolute;
+	 	/* #footer.height + #footer.bottom + 16 
+	 	 * ÐœÐ¾Ð¶Ð½Ð¾ ÑƒÐ»ÑƒÑ‡ÑˆÐ¸Ñ‚ÑŒ */
+		bottom: 242px;
+		left: 10%;
+	}
+	
+	#intro .mwHint * {
+		display: none;
+	}
+}

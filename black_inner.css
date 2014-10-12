@@ -1,0 +1,210 @@
+body {
+	
+	text-align: center;
+	background: url(../img/inner_bck.jpg) 50% 0% no-repeat;
+	background-color: #1A1A1A;
+	/*min-width: 1000px;*/
+	
+}
+
+#body {
+	padding-top: 40px;
+    /* Height of the footer */
+}
+
+.title {
+	font-size: 780%;
+	margin-bottom: 50px;
+}
+
+.centeredBlockA {
+	max-width: 1110px;
+	padding: 0px 10%;
+	display: inline-block;
+	text-align: left;
+}
+
+
+
+/* Ð¡Ð¼ÐµÐ¶Ð½Ñ‹Ðµ */
+
+
+body.clones .block a,
+body.awards .block a  {
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+body.clones .blocks,
+body.awards .blocks {
+	
+	display: inline-block;
+	position: relative;
+}
+
+body.clones .blocks {
+	text-align: left;
+	width: 1110px;
+}
+
+body.awards .title,
+body.awards .blocks {
+	min-width: 355px;
+}
+
+body.awards .blocks {
+	text-align: center;
+	max-width: 1110px;
+}
+
+body.clones .co,
+body.awards .block {
+	 text-align: left;
+     width: 355px;
+     display:inline-block;
+     vertical-align: top;
+}
+
+body.clones .block,
+body.awards .block,
+body.clones .blocks .popup img {
+	background: #343434;
+}
+
+body.clones .co + .co,
+body.awards .block + .block{
+	margin-left: 22px;
+}
+
+body.clones .block a,
+body.awards .block a {
+    
+    color: #d33734;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'pt_sans-bold', sans-serif;
+    line-height: 25px;
+}
+
+body.clones .block a:hover,
+body.awards .block a:hover {
+    color: white;
+}
+
+body.clones .block p,
+body.awards .block p {
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+/* */
+
+body.clones .block,
+body.awards .block {
+	font-family: 'pt_sans', sans-serif;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /* Firefox */
+	-webkit-box-sizing: border-box; /* Safari */
+	padding: 15px 20px 19px;
+}
+
+body.clones .co .block + .block {
+	margin-top: 23px;
+}
+
+body.clones .blocks .popup {
+	position: absolute;
+	padding-top: 14px;
+}
+
+body.clones .blocks .popup.l {
+	left: 0px;
+}
+body.clones .blocks .popup.c {
+	left: 150px;
+}
+body.clones .blocks .popup.r {
+	right: 0px;
+}
+
+body.clones .blocks .popup img {
+    border: 11px solid #da3333;
+	width: 785px;
+	height: 435px;
+}
+
+body.clones .blocks .popup .tr {
+	position: absolute;
+	top: 3px;
+	margin-left:18px;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	border-style: solid;
+	border-width: 11px;
+	border-top-width: 0px;
+	border-color: transparent;
+	border-bottom-color: #da3333;
+}
+body.clones .blocks .popup.c .tr {
+    margin-left:245px;
+}
+body.clones .blocks .popup.r .tr {
+    right: 315px;
+}
+body.clones .block p {
+    margin-top: 4px;
+}
+body.clones .block p {
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+}
+body.clones .block a {
+    vertical-align: middle;
+}
+
+body.clones .block .eyeIcon {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 9px;
+	width: 18px;
+	
+    position: relative;
+    height: 13px;
+	background: url(../img/icons.png) no-repeat -117px -83px;
+    top: 1px;
+}
+
+/* */
+
+body.awards .lastInLine~.block {
+    margin-top: 23px;
+}
+
+body.awards .lastInLine+.block {
+    margin-left: 0px;
+}
+
+body.awards .block .graphRestrain {
+    height: 95px;
+    width: 110px;
+    margin-right: 12px;   
+    text-align: center;
+}
+
+body.awards .block .graphRestrain img {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;   
+}
+.white_info {
+    font: 15px pt_sans, sans-serif;
+    margin-bottom: 30px;
+    color: white;
+}
+.white_info a{color:#d33734}

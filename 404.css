@@ -1,0 +1,42 @@
+#container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: url(/static/img/inner_bck.jpg) 50% 0% no-repeat;
+}
+.fallback {
+	height: 100%;
+	width: 100%;
+	/*background-color: #161616;*/
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	overflow:hidden;	
+}
+
+canvas {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.vAligner > * {
+	display: inline-block;
+}
+
+.fallback h1 {
+	font: 100px pf_din_text_comp_proregular, sans-serif;
+	color: #FF3333;
+}
+.fallback p {
+	font: xx-large pt_sans, sans-serif;
+	color: white;
+}
+
+/* */
+
+body {
+	/*overflow: hidden;*/
+}

@@ -1,0 +1,62 @@
+/*
+ ÐÐ´Ð°Ð¿Ñ‚Ð°Ñ†Ð¸Ñ
+ * */
+
+@media (max-width: 950px) {
+
+	/*#footer > ul > .mid {
+		width: 357px;
+	}
+
+	 #footer .mid .strt {
+	 width: 115px;
+	 }
+
+	 #footer .mid .end {
+	 width: 142px;
+	 }*/
+
+	#footer .root > .teamAndWorks,
+	#footer .root > .mailAndRequest,
+	#footer .root > .phoneAndLocation {
+		display: inline-block;
+	}
+	
+	#footer .teamAndWorks .team,
+	#footer .mailAndRequest .request,
+	#footer .root > .phoneAndLocation .location {
+		display: block;
+	}
+	
+	#footer ul.root > .flat {
+		display: none;
+	} 
+
+	#footer .root.aligner {
+		padding-left: 1.5%;
+	}
+
+}
+@media (max-width: 750px) {
+	#footer .languageSwitch {
+		display: none;
+	}
+	#footer .root.aligner {
+		padding-top: 12px;
+		height: 65px;
+	}
+}
+@media (max-width: 600px) {
+
+	#footer .share {
+		display: none;
+	}
+	
+	#footer > ul > .phoneAndLocation {
+		margin-right: 4.5%;
+	}
+	#footer .root.aligner {
+		padding-top: 30px;
+		height: 100%;
+	}
+}
